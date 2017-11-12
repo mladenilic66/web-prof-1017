@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #EAEDED;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  width: 100%;
+  border-radius: 20px 20px 0 0 ;
+  vertical-align: bottom;
+}
+[type="submit"],button,.fa-times {
+  cursor: pointer;
+}
+input {
+  box-sizing: border-box;
+}
+div {
+  overflow: hidden;
+}
+
+.wrapper,.content {
+  max-width: 800px;
+  margin: 40px auto;
+}
+.content {
+  padding: 20px;
+  background: #fff;
+  border-radius: 40px;
+}
+.file {
+  border-radius: none;
+}
+.submit {
+  border-radius: 0 0 20px 20px;
+}
+.submit-btn {
+  width: 100%;
+  margin: 0;
+  padding: 12px 0;
+  outline: none;
+  border: none;
+  background: #5BC2B6;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .3s all ease-out;
+}
+.submit-btn:hover {
+  background: #50B4A9;
+}
+
+.custom-file-input {
+  visibility: hidden;
+  width: 100%;
+  position: relative;
+  height: 40px;
+}
+.custom-file-input::before {
+  content: '';
+  transition: .3s all ease-out;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  padding: 12px 0;
+  outline: none;
+  background: #5BC2B6;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-size: 12pt;
+  text-align: center;
+  visibility: visible;
+  position: absolute;
+  
+}
+.custom-file-input:hover::before {
+  background:  #50B4A9;
+}
+.msg {
+  border-left: 3px solid red;
+  font-size: 20px;
+  background: #fff;
+  color: #555;
+}
+.remove,.info {
+  padding: 10px 20px;
+}
+.remove {
+  float: right;
+}
+.info {
+  float: left;
+  margin: 0;
+}
